@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -95,13 +96,12 @@
           <input class="form-control me-2" name="user_query" type="search" placeholder="Search....." aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>&nbsp&nbsp
           <div class="btn-group me-2" role="group" aria-label="Second group">
-            <button type="button" class="btn btn-outline-secondary" onclick="location.href='login.html'">Login</button>
-            <button type="button" class="btn btn-outline-secondary"
-              onclick="location.href='signup.html'">Signup</button>&nbsp&nbsp
-            <a href="cart.php" class=""><span class='bi bi-cart' style='color: blue; font-size:30px;'></span></a>
+            <button type="button" class="btn btn-outline-secondary" onclick="location.href='./user/login.php'">Login</button>
+            <button type="button" class="btn btn-outline-secondary" onclick="location.href='./user/register.php'">Signup</button>
           </div>
+          <button type="button" id="cart" class="btn btn-outline-secondary bi bi-cart" onclick="location.href='cart.php'">4 </button>
+          
         </form>
       </div>
     </div>
-    <h1>manikanta_adapa</h1>
   </nav>
