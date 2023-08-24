@@ -74,3 +74,9 @@ footer {
 .row>*{
     margin: auto;
 }
+#cart{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+  } 
+  

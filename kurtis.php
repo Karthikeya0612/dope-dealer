@@ -223,8 +223,12 @@
                     <div class="card-body">
                         <h5 class="card-title">Dupatta Kurti</h5>
                         <p class="card-text">Rs.250</p>
-                        <button type="button" class="btn btn-outline-danger btn-sm"><span class="bi bi-cart"> </span>Add
-                            to cart</button>
+                        <form method="POST" action="add_to_cart.php">
+                            <input type="hidden" name="product_id" value="1">
+                            <button type="submit" class="btn btn-outline-danger btn-sm">
+                            <span class="bi bi-cart"></span> Add to cart
+                            </button>
+                        </form>
 
                     </div>
                 </div>

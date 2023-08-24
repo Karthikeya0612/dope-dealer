@@ -1,5 +1,7 @@
 <?php
-    include('includes/header.php')
+    include('includes/header.php');
+
+    
 ?>
   <div class="cl">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
